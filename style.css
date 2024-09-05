@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b40934  ;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    
+
+
+}
+
+.container {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vmin;
+}
+
+.box {
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 12, 0.5);
+    font-size: 8vmin;
+    color: color(srgb rgb(129, 29, 29) rgb(117, 172, 117) blue ,black);
+
+
+}
+h2{
+    color: aliceblue;
+    font-size: 1cm;
+}
+
+
+/*.red{
+    color: #3b3737;
+    font-size: 1cm;
+   
+    
+h2{
+ 
+}*/
+
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000,
+                 4px 4px 0 #000, 5px 5px 0 #000, 6px 6px 0 #000,
+                 7px 7px 0 #000, 8px 8px 0 #000, 9px 9px 0 #000;
+}
+button {
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    margin-top: 20px; /* Space from top */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #d1d1d1; /* Slightly darker background on hover */
+    transform: translateY(-3px); /* Slightly raise the button */
+}
+
+/* Button active (clicked) effect */
+button:active {
+    background-color: #bcbcbc; /* Darker background when clicked */
+    transform: translateY(0); /* Return to normal position */
+}
+
+
+
